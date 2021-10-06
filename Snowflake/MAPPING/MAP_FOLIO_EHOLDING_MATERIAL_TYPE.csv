@@ -1,0 +1,436 @@
+﻿MARC_MATERIAL_TYPE,MATERIAL_TYPE
+Abstract,EOTHER
+Academic Journal,EJOURNAL
+Academic Journal category,EJOURNAL
+academic/scholarly publication,EOTHER
+Acq Analyze,EOTHER
+Acq Annual,EOTHER
+Acq Audiotape/Cassette,EOTHER
+Acq Back Volume,EOTHER
+Acq Book,EBOOK
+Acq Cat Sep,EOTHER
+Acq CD ROM,EOTHER
+Acq Databases,DATABASE
+Acq E-book,EBOOK
+Acq E-Journals,EJOURNAL
+Acq Hardware,EOTHER
+Acq Irregular Serial,EOTHER
+Acq Looseleaf,EOTHER
+Acq Map,EOTHER
+Acq Memb/Comb Pmts,EOTHER
+Acq Microfiche,EOTHER
+Acq Microform,EOTHER
+Acq Music Score,EOTHER
+Acq Newspaper,EOTHER
+Acq Periodical,EJOURNAL
+Acq Poster,EOTHER
+Acq Serial,EJOURNAL
+Acq Sound Recording,EOTHER
+Acq Title Change,EOTHER
+Acq Video,EOTHER
+Acq Web URL,EOTHER
+Advertisement,EOTHER
+Almanac,EOTHER
+Annual reports & internal brochures,EOTHER
+Archv,EOTHER
+ArtChap,EOTHER
+ArtChap_Artcl,EOTHER
+ArtChap_Chptr,EOTHER
+Article,EJOURNAL
+article,EJOURNAL
+Artifact,EOTHER
+Artwork,EOTHER
+Audio,EOTHER
+Audio (Online),EOTHER
+audio disc (musical),EOTHER
+audio disc (nonmusical),EOTHER
+Audio Recording,EOTHER
+Audiobook,EBOOK
+audiobook,EBOOK
+Audiobook_Cassette,EBOOK
+Audiobook_CD,EBOOK
+Audiovisuals,EOTHER
+Author bibliography,EOTHER
+Autobiography,EBOOK
+Autograph,EOTHER
+autograph,EOTHER
+Autograph manuscript,EBOOK
+Back Cover,EOTHER
+Back Matter,EOTHER
+Bibliography,EOTHER
+Biography,EBOOK
+Blog Entry,EOTHER
+book,EBOOK
+Book,EBOOK
+Book (Hardbound),EBOOK
+Book (Softbound),EBOOK
+book article,EBOOK
+Book Article,EBOOK
+Book Chapter,EBOOK
+Book review,EBOOK
+book review,EBOOK
+Book Review,EBOOK
+Book Review Essay,EBOOK
+book stand,EBOOK
+Book Summary,EBOOK
+Book/Product Reviews,EBOOK
+Book_Braille,EBOOK
+Book_Continuing,EBOOK
+Book_Digital,EBOOK
+Book_LargePrint,EBOOK
+Book_Mic,EBOOK
+Book_thsis,EBOOK
+BRO,EOTHER
+Broadcast transcript,EOTHER
+Brochure,EOTHER
+Brochure/Pamphlet,EOTHER
+Case Reports,EOTHER
+Case Study,EOTHER
+cassette tape,EOTHER
+CD,EOTHER
+CD-ROM,EOTHER
+CD-ROM review,EOTHER
+Certificate,EOTHER
+Chapter,EOTHER
+Chart,EOTHER
+Classic Book,EBOOK
+Classification Term,EOTHER
+Clinical Trial,EOTHER
+Cochrane Protocol,EOTHER
+Collected Works - General,EOTHER
+Collected Works - Proceedings,EOTHER
+Collected Works - Serial,EJOURNAL
+Collected Works - Serials,EJOURNAL
+collection,EOTHER
+Collections,EOTHER
+Collective Title,EOTHER
+Collective Volume Article,EJOURNAL
+Commentary,EOTHER
+Commission,EOTHER
+compact disc,EOTHER
+Company Profile,EOTHER
+Comparative Study,EOTHER
+CompFile,EOTHER
+CompFile_Digital,EOTHER
+Computer File,EOTHER
+Computer Programs,EOTHER
+Conference,EOTHER
+Conference Abstracts,EOTHER
+Conference Document,EOTHER
+Conference Paper,EOTHER
+Conference Poster,EOTHER
+Conference Proceeding,EOTHER
+Conference Proceedings,EOTHER
+Conference Proceedings / Symposia,EOTHER
+Congressional Document,EOTHER
+Contribution,EOTHER
+Country Report,EOTHER
+Court record,DATABASE
+Creative Works,EOTHER
+CURR,EOTHER
+Ð¿ÐµÑ€ÑÐ¾Ð½Ð°Ð»Ð¸Ñ,EOTHER
+Database,DATABASE
+Definition,EOTHER
+Dictionaries,EOTHER
+Dictionary,EOTHER
+Directive Reply,EOTHER
+Directories,EOTHER
+directory,EOTHER
+Diskussionsprotokoll,EOTHER
+Dissertation,EOTHER
+dissertation,EOTHER
+dissertation abstract,EOTHER
+Dissertation Abstract,EOTHER
+Dissertation/ Thesis,EBOOK
+Dissertation/Thesis,EBOOK
+Dissertations/Theses,EBOOK
+Document,EOTHER
+document,EOTHER
+Document (Online),EOTHER
+ÐºÑ€Ð°Ñ‚ÐºÐ¾Ðµ ÑÐ¾Ð¾Ð±Ñ‰ÐµÐ½Ð¸Ðµ,EOTHER
+dvd,EOTHER
+dvd drive,EOTHER
+eBook,EBOOK
+ebook,EBOOK
+eBook chapter,EBOOK
+edition,EOTHER
+Edition,EOTHER
+Editorial,EOTHER
+edu test,EOTHER
+Educational Report,EOTHER
+e-journal,EJOURNAL
+Electronic Resource,EOTHER
+electronic resource,EOTHER
+Encyclopedia,EOTHER
+Encyclopedias,EOTHER
+EQUIP,EOTHER
+equipment,EOTHER
+Equipment,EOTHER
+Equipment,EOTHER
+e-reader,EOTHER
+ERIC Digests in Full Text,EJOURNAL
+ERIC Publications,EOTHER
+Essay,EOTHER
+Evaluation Studies,EOTHER
+Evidence-Based Care Sheet,EOTHER
+exhibition review,EOTHER
+EZ Borrow,EOTHER
+Fact Sheet,EOTHER
+Factsheet,EOTHER
+Festschrift,EOTHER
+Fields,EOTHER
+File Report,EOTHER
+film,EOTHER
+Film,EOTHER
+Financial Report,EOTHER
+Flipster Magazine,EJOURNAL
+Folder,EOTHER
+Front Cover,EOTHER
+GAME,EOTHER
+game,EOTHER
+Game,EOTHER
+General,EOTHER
+Generic,EOTHER
+Glossary,EOTHER
+Government Account Reports,EOTHER
+Government Document,EOTHER
+Government document,EOTHER
+Government Documents,EOTHER
+Government Records,DATABASE
+Government Report,EOTHER
+Grey Literature,EOTHER
+Guideline,EOTHER
+Guides - Classroom - Learner,EOTHER
+Guides - Classroom - Teacher,EOTHER
+Guides - General,EOTHER
+Guides - Non-Classroom,EOTHER
+Habilitationsschrift,EOTHER
+Handbooks,EBOOK
+Health Report,EOTHER
+Historical Article,EJOURNAL
+Historical Materials,EOTHER
+Image,EOTHER
+Image_2D,EOTHER
+Images,EOTHER
+incollection,EOTHER
+Indicator,EOTHER
+Industry overview,EOTHER
+Industry Profile,EOTHER
+Industry ranking,EOTHER
+Information Analyses,EOTHER
+interlibrary loan,EOTHER
+interview,EOTHER
+IntMM,EOTHER
+Issue Paper,EJOURNAL
+journal,EJOURNAL
+Journal,EJOURNAL
+journal article,EJOURNAL
+Journal Article,EJOURNAL
+Journal article,EJOURNAL
+Journal Paper,EJOURNAL
+Journal/Magazine,EJOURNAL
+Jrnl,EJOURNAL
+Jrnl_Digital,EJOURNAL
+key,EOTHER
+Kit,EOTHER
+Kit/Object,EOTHER
+kits,EOTHER
+Laptop,EOTHER
+Laptop,EOTHER
+Law,EOTHER
+Leaflet,EOTHER
+Legal Documents,EOTHER
+Legal Material,EOTHER
+Legislation,EOTHER
+letter,EOTHER
+Letter,EOTHER
+"Libretto, printed",EOTHER
+list,EOTHER
+List,EOTHER
+Literary Criticism,EOTHER
+Machine-Readable Data Files,EOTHER
+Magazine,EJOURNAL
+Magazine Article,EJOURNAL
+Magazine Article [online],EJOURNAL
+Manual or 'How to' Guide,EOTHER
+Manuscript,EBOOK
+manuscript,EBOOK
+Manuscript copy,EBOOK
+Manuscript copy with autograph annotations,EBOOK
+Map,EOTHER
+map,EOTHER
+Map_Digital,EOTHER
+Market Research Report,EOTHER
+Market share report,EOTHER
+Masters Thesis,EBOOK
+Meeting Abstract,EOTHER
+Meeting minutes,EOTHER
+Memoranda & correspondence,EOTHER
+Methods Groups,EOTHER
+microfiche,EOTHER
+microfilm,EOTHER
+microform,EOTHER
+Minutes,EOTHER
+Miscellaneous,EOTHER
+Mixed Materials,EOTHER
+model,EOTHER
+Monograph,EOTHER
+MsScr,EOTHER
+MULT,EOTHER
+Multilingual/Bilingual Materials,EOTHER
+Music,EOTHER
+Music Score,EOTHER
+music score,EOTHER
+Music_CD,EOTHER
+Ñ€Ð°Ð·Ð½Ð¾Ðµ,EOTHER
+News,EOTHER
+news media,EOTHER
+News/Media,EOTHER
+Newsletter,EOTHER
+newsletter,EOTHER
+NEWSP,EOTHER
+newspaper,EOTHER
+Newspaper,EOTHER
+Newspapers and magazines,EOTHER
+Newswire,EOTHER
+Non-Print Media,EOTHER
+Numerical/Quantitative Data,EOTHER
+obituary,EOTHER
+Object,EOTHER
+Occasional Paper,EOTHER
+online document,EOTHER
+Opinion Papers,EOTHER
+Oral History (Video),EOTHER
+Order,EOTHER
+ORES,EOTHER
+other,EOTHER
+Other,EOTHER
+OTHER_DOCUMENT,EOTHER
+otr,EOTHER
+Pamphlet,EOTHER
+pamphlet,EOTHER
+paperback,EOTHER
+Partial autograph,EOTHER
+partly autograph,EOTHER
+PASS,EOTHER
+Patent,EOTHER
+Peer Reviewed Journal,EJOURNAL
+periodical,EJOURNAL
+Periodical,EJOURNAL
+periodical review,EOTHER
+Personal Collection,EOTHER
+Petition,EOTHER
+photocopy,EOTHER
+physical,EBOOK
+Physical,EBOOK
+Play,EOTHER
+PMISC,EOTHER
+Possible autograph manuscript,EBOOK
+poster,EOTHER
+Poster Presentation,EOTHER
+"Presentations, writings & speeches",EOTHER
+Primary Source Document,EOTHER
+Print,EOTHER
+Print with autograph annotations,EOTHER
+Print with non-autograph annotations,EOTHER
+Printed Extract,EOTHER
+probably autograph,EOTHER
+Proceedings,EOTHER
+proceedings,EOTHER
+Project,EOTHER
+psych test,EOTHER
+Public Record,DATABASE
+Publication List,EOTHER
+Quick Lesson,EOTHER
+Randomized Controlled Trial,EOTHER
+Reference Book,EBOOK
+Reference Entry,EOTHER
+Reference Work,EOTHER
+replication,EOTHER
+Replik,EOTHER
+Report,EOTHER
+RES,EOTHER
+Research,EOTHER
+Research Instrument,EOTHER
+Research Project,EOTHER
+Research Report,EOTHER
+Research Starter,EOTHER
+"Research, reports & data",EOTHER
+review,EOTHER
+Review,EOTHER
+REVIEW,EOTHER
+Sales Document,EOTHER
+Sammelwerk,EOTHER
+Sammelwerksbeitrag,EOTHER
+SC,EOTHER
+Serial,EJOURNAL
+serial,EJOURNAL
+Series,EJOURNAL
+sheet music,EOTHER
+skeleton,EOTHER
+skull,EOTHER
+slide,EOTHER
+software,EOTHER
+software review,EOTHER
+Song,EOTHER
+Sonstiges,EOTHER
+SOUND,EOTHER
+sound recording,EOTHER
+special feature,EOTHER
+Speech,EOTHER
+Speeches/Meeting Papers,EOTHER
+Standard,EOTHER
+Statistics,EOTHER
+Student Work,EOTHER
+Student Work,EOTHER
+Study Room,EOTHER
+Study Room,EOTHER
+Submission,EOTHER
+SWOT Analysis,EOTHER
+Teaching Material,EOTHER
+Technical Report,EOTHER
+Tests/Questionnaires,EOTHER
+text,EBOOK
+Thesis,EBOOK
+Thesis / Dissertation,EBOOK
+Topic Collection,EOTHER
+TRADE,EOTHER
+trade publication,EOTHER
+Trade Publication,EOTHER
+Transcript,EOTHER
+Translation,EOTHER
+translation,EOTHER
+Translations,EOTHER
+TSRPT,EOTHER
+undefined,EOTHER
+undetermined,EOTHER
+Unknown,EOTHER
+Unknown,EOTHER
+"Unknown, based on Wilson data",EOTHER
+unmapped,EOTHER
+Unpublished,EOTHER
+unspecified,EOTHER
+user correspondence,EOTHER
+Video,EOTHER
+Video (Online),EOTHER
+Video Recording,EOTHER
+video recording,EOTHER
+video review,EOTHER
+Video_Bluray,EOTHER
+Video_DVD,EOTHER
+Video_VHS,EOTHER
+videocassette,EOTHER
+videodisc,EOTHER
+videoreel,EOTHER
+VIS,EOTHER
+Vis,EOTHER
+Vortrag,EOTHER
+Web Article,EOTHER
+Web Page/Site,EOTHER
+Web_Digital,EOTHER
+website,EOTHER
+Website listing,EOTHER
+website review,EOTHER
+WIRES,EOTHER
+Working Paper,EOTHER
+Yearbook,EBOOK

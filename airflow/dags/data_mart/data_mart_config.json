@@ -1,0 +1,170 @@
+{
+  "sensors": [
+    {
+      "task_id": "COUNTER_DR_D1_sensor",
+      "external_dag_id": "COUNTER_DR_D1_Data_Load",
+      "execution_delta": "20",
+      "poke_interval": "600",
+      "is_enabled": false
+    },
+    {
+      "task_id": "COUNTER_PR_P1_sensor",
+      "external_dag_id": "COUNTER_PR_P1_Data_Load",
+      "execution_delta": "25",
+      "poke_interval": "600",
+      "is_enabled": false
+    },
+    {
+      "task_id": "COUNTER_TR_B3_sensor",
+      "external_dag_id": "COUNTER_TR_B3_Data_Load",
+      "execution_delta": "15",
+      "poke_interval": "600",
+      "is_enabled": false
+    },
+    {
+      "task_id": "COUNTER_TR_J3_sensor",
+      "external_dag_id": "COUNTER_TR_J3_Data_Load",
+      "execution_delta": "10",
+      "poke_interval": "600",
+      "is_enabled": false
+    },
+    {
+      "task_id": "FOLIO_sensor",
+      "external_dag_id": "FOLIO_Data_Load",
+      "execution_delta": "90",
+      "poke_interval": "600",
+      "is_enabled": true
+    },
+    {
+      "task_id": "Alma_sensor",
+      "external_dag_id": "Alma_Data_Load",
+      "execution_delta": "70",
+      "poke_interval": "600",
+      "is_enabled": false
+    },
+    {
+      "task_id": "Alma_COUNTER_sensor",
+      "external_dag_id": "Alma_COUNTER_Data_Load",
+      "execution_delta": "20",
+      "poke_interval": "600",
+      "is_enabled": false
+    },
+    {
+      "task_id": "EZproxy_sensor",
+      "external_dag_id": "EZproxy_Data_Load",
+      "execution_delta": "10",
+      "poke_interval": "600",
+      "is_enabled": false
+    }
+  ],
+  "map_tables": [["MAP_TABLEAU_TRANSLATION"]],
+  "incr_map_tables": [["MAP_TABLEAU_TRANSLATION"]],
+  "dim_tables": [
+    ["D_DATE"],
+    ["D_ITEM"],
+    ["D_PATRON_GROUP"],
+    ["D_PUBLISHER", "D_EINV"]
+  ],
+  "incr_dim_tables": [
+    ["D_DATE"],
+    ["D_ITEM"],
+    ["D_PATRON_GROUP"],
+    ["INCR_D_PUBLISHER", "D_EINV"]
+  ],
+  "fact_tables": [
+    ["F_EXP_INV_USAGE"],
+    ["F_LOAN_CIRCULATION_D2", "F_COLLECTION_MANAGEMENT"],
+    ["F_COLLECTION_D3", "F_LOAN_COLLECTION"],
+    ["F_LOAN_CIRCULATION_D3", "F_LOAN_COLLECTION"]
+  ],
+  "incr_fact_tables": [
+    ["F_EXP_INV_USAGE"],
+    ["F_LOAN_CIRCULATION_D2", "F_COLLECTION_MANAGEMENT"],
+    ["INCR_F_COLLECTION_D3", "F_LOAN_COLLECTION"],
+    ["F_LOAN_CIRCULATION_D3", "F_LOAN_COLLECTION"]
+  ],
+  "dashboards": [
+    {
+      "task_id": "Tableau_D1_Library_Overview_refresh",
+      "workbook": "Library Overview",
+      "is_enabled": true
+    },
+    {
+      "task_id": "Tableau_D2_Circulation",
+      "workbook": "Circulation",
+      "is_enabled": false
+    },
+    {
+      "task_id": "Tableau_D3_Circulation_Analysis_refresh",
+      "workbook": "Circulation Analysis",
+      "is_enabled": true
+    },
+    {
+      "task_id": "Tableau_D4_Cost-Effectiveness_Overview_refresh",
+      "workbook": "Cost-Effectiveness Overview",
+      "is_enabled": false
+    },
+    {
+      "task_id": "Tableau_D4_Cost-Effectiveness_E-resources",
+      "workbook": "Cost-Effectiveness for E-resources",
+      "is_enabled": false
+    },
+    {
+      "task_id": "Tableau_D5_Collections_Budget_Overview",
+      "workbook": "Collections Budget Overview",
+      "is_enabled": true
+    },
+    {
+      "task_id": "Tableau_D5_Collections_Budget_Analytics",
+      "workbook": "Collections Budget Analytics",
+      "is_enabled": true
+    },
+    {
+      "task_id": "Tableau_D6_E-resource_Usage_refresh",
+      "workbook": "E-resource Usage",
+      "is_enabled": false
+    },
+    {
+      "task_id": "Tableau_D6_E-resource_Usage_R4_R5_refresh",
+      "workbook": "E-resource Usage (R4 to R5 transform)",
+      "is_enabled": false
+    },
+    {
+      "task_id": "Tableau_D7_Authentication_Analytics_refresh",
+      "workbook": "Authentication Analytics",
+      "is_enabled": false
+    },
+    {
+      "task_id": "Tableau_D7_Student_Outcomes_refresh",
+      "workbook": "Student Outcomes",
+      "is_enabled": false
+    },
+    {
+      "task_id": "Tableau_D8_Collection_Management_refresh",
+      "workbook": "Collection Management",
+      "is_enabled": true
+    }
+  ],
+  "tableau_notifications": [
+    {
+      "task_id": "Notify_FOLIO_Dashboard",
+      "process_name": "TABLEAU_REFRESH_DATE_FOLIO",
+      "is_enabled": true
+    },
+    {
+      "task_id": "Notify_Alma_Dashboard",
+      "process_name": "TABLEAU_REFRESH_DATE_Alma",
+      "is_enabled": false
+    },
+    {
+      "task_id": "Notify_COUNTER_Dashboard",
+      "process_name": "TABLEAU_REFRESH_DATE_COUNTER",
+      "is_enabled": false
+    },
+    {
+      "task_id": "Notify_EZproxy_Dashboard",
+      "process_name": "TABLEAU_REFRESH_DATE_EZPROXY",
+      "is_enabled": false
+    }
+  ]
+}

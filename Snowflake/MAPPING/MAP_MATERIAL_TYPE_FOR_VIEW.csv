@@ -1,0 +1,43 @@
+﻿MATERIAL_TYPE,MATERIAL_TYPE_NEW
+video recording,video recording
+unspecified,unspecified
+text,text
+sound recording,sound recording
+electronic resource,electronic resource
+microform,microform
+Archv,Archv
+Video_DVD,Video_DVD
+ArtChap_Chptr,ArtChap_Chptr
+ArtChap_Artcl,ArtChap_Artcl
+otr,otr
+Video_VHS,Video_VHS
+ArtChap,ArtChap
+Book_thsis,Book_thsis
+Jrnl_Digital,Jrnl_Digital
+Map,Map
+MsScr,MsScr
+Book_Mic,Book_Mic
+Book_Digital,Book_Digital
+Image_2D,Image_2D
+Map_Digital,Map_Digital
+Book_Continuing,Book_Continuing
+Jrnl,Jrnl
+News,News
+Book_LargePrint,Book_LargePrint
+Audiobook,Audiobook
+Audiobook_Cassette,Audiobook_Cassette
+Game,Game
+Video,Video
+Vis,Vis
+Music,Music
+Web_Digital,Web_Digital
+Book_Braille,Book_Braille
+Kit,Kit
+CompFile,CompFile
+Audiobook_CD,Audiobook_CD
+CompFile_Digital,CompFile_Digital
+IntMM,IntMM
+Music_CD,Music_CD
+Video_Bluray,Video_Bluray
+Object,Object
+Book,Book

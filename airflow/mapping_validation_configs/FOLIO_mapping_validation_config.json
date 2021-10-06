@@ -1,0 +1,173 @@
+{
+  "files":
+  [
+    {
+      "file_path": "uploads/MAPPING/FOLIO/",
+      "file_name": "MAP_PATRON_GROUP",
+      "min_rows": 2,
+      "unique_columns": ["PATRON_GROUP_NAME"],
+      "columns": [
+        {
+          "name": "PATRON_GROUP_NAME",
+          "type": "str",
+          "length": 200
+        },
+        {
+          "name": "PATRON_GROUP_NAME_UNIFIED",
+          "type": "str",
+          "length": 200
+        }
+      ]
+    },
+    {
+      "file_path": "uploads/MAPPING/FOLIO/",
+      "file_name": "MAP_LC_SUBJECT_AREA",
+      "min_rows": 200,
+      "unique_columns": ["SUBJECT_CLASS_CODE"],
+      "columns": [
+        {
+          "name": "SUBJECT_CLASS_CODE",
+          "type": "str",
+          "length": 6
+        },
+        {
+          "name": "SUBJECT_CLASS",
+          "type": "str",
+          "length": 300
+        },
+        {
+          "name": "SUBJECT_AREA_CODE",
+          "type": "str",
+          "length": 5
+        },
+        {
+          "name": "SUBJECT_AREA",
+          "type": "str",
+          "length": 200
+        },
+        {
+          "name": "BY_THREE_LETTERS",
+          "type": "str",
+          "length": 3
+        }
+      ]
+    },
+    {
+      "file_path": "uploads/MAPPING/FOLIO/",
+      "file_name": "MAP_FUND_TO_SUBJECT_AREA",
+      "min_rows": 5,
+      "unique_columns": ["ALLOC_FUND_CODE"],
+      "columns": [
+        {
+          "name": "ALLOC_FUND_CODE",
+          "type": "str",
+          "length": 100
+        },
+        {
+          "name": "SUBJECT_AREA",
+          "type": "str",
+          "length": 200
+        }
+      ]
+    },
+    {
+      "file_path": "uploads/MAPPING/FOLIO/",
+      "file_name": "MAP_DW_SUBJECT_AREA",
+      "min_rows": 90,
+      "unique_columns": ["subclass_start", "subclass_end"],
+      "columns": [
+        {
+          "name": "subclass_start",
+          "type": "int",
+          "length": 6
+        },
+        {
+          "name": "subclass_end",
+          "type": "int",
+          "length": 6
+        },
+        {
+          "name": "subclass",
+          "type": "str",
+          "length": 100
+        },
+        {
+          "name": "subject_area_start",
+          "type": "int",
+          "length": 6
+        },
+        {
+          "name": "subject_area_end",
+          "type": "int",
+          "length": 6
+        },
+        {
+          "name": "subject_area",
+          "type": "str",
+          "length": 100
+        }
+      ]
+    },
+    {
+      "file_path": "uploads/MAPPING/FOLIO/",
+      "file_name": "MAP_ALLOCATED_FUND",
+      "min_rows": 6,
+      "unique_columns": ["ALLOC_FUND_CODE"],
+      "columns": [
+        {
+          "name": "ALLOC_FUND_CODE",
+          "type": "str",
+          "length": 50
+        },
+        {
+          "name": "ALLOC_FUND_SUBTYPE",
+          "type": "str",
+          "length": 100
+        },
+        {
+          "name": "ALLOC_FUND_TYPE",
+          "type": "str",
+          "length": 100
+        },
+        {
+          "name": "ALLOC_FUND_MATERIAL_TYPE",
+          "type": "str",
+          "length": 20
+        },
+        {
+          "name": "ALLOC_FUND_CATEGORY",
+          "type": "str",
+          "length": 100
+        }
+      ]
+    },
+	{
+      "file_path": "uploads/MAPPING/FOLIO/",
+      "file_name": "MAP_ITEM_STATUS",
+      "min_rows": 3,
+      "unique_columns": ["BASE_STATUS", "ITEM_STATUS", "ACTIVE_INACTIVE_STATUS", "SYS_SOURCE_SYSTEM"],
+      "columns": [
+        {
+          "name": "BASE_STATUS",
+          "type": "str",
+          "length": 100
+        },
+        {
+          "name": "ITEM_STATUS",
+          "type": "str",
+          "length": 100
+        },
+        {
+          "name": "ACTIVE_INACTIVE_STATUS",
+          "type": "str",
+          "length": 100
+        },
+        {
+          "name": "SYS_SOURCE_SYSTEM",
+          "type": "str",
+          "length": 100
+        }
+      ]
+    }
+  ]
+}
